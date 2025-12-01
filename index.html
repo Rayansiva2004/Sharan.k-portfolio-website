@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sharan.K-Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Sharan.K" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Sharan.k">Sharan.K</h1>
+
+          <p class="title">Cyber Security</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:surekhasharan@gmail.com" class="contact-link">surekhasharan@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8838125379" class="contact-link">+91 8838125379</a>
+            </div>
+
+          </li>
+
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Kanchipuram, Tamilnadu</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a onclick="location.href='https://www.linkedin.com/in/sharank2011'" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a onclick="location.href='https://github.com/sharan-bot'" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Profile</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+
+         <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m Sharan, specialized in Vulnerability Assessment and Penetration Testing. I focus on identifying weaknesses, performing hands-on exploitation, and improving overall security posture. I also work with Alert Logic for SOC monitoring and Scalefusion for endpoint management. My combination of offensive and defensive skills helps me deliver complete cybersecurity solutions.
+
+          </p>
+        </section>
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+  <h3 class="h3 testimonials-title">Job Role</h3>
+
+  <ul class="testimonials-list">
+
+    <li class="testimonials-item" data-modal-open="modal1">
+      <div class="content-card">
+        <h4 class="h4 testimonials-item-title">Cybersecurity – VAPT (Primary Focus)</h4>
+        <div class="testimonials-text">
+          <p>
+            Focused on Vulnerability Assessment and Penetration Testing, identifying security gaps, performing ethical hacking, analyzing risks, and recommending safeguards to strengthen systems against cyber threats and ensure robust, secure digital environments.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-modal-open="modal2">
+      <div class="content-card">
+        <h4 class="h4 testimonials-item-title">SOC (Alert Logic)</h4>
+        <div class="testimonials-text">
+          <p>
+            Skilled in SOC monitoring using Alert Logic, analyzing security alerts, detecting threats, triaging incidents, escalating critical issues, documenting findings, and supporting continuous improvement to enhance organizational security and reduce potential cyber risks effectively.
+          </p>
+        </div>
+      </div>
+    </li>
+
+    <li class="testimonials-item" data-modal-open="modal3">
+      <div class="content-card">
+        <h4 class="h4 testimonials-item-title">Endpoint Management (UEM)</h4>
+        <div class="testimonials-text">
+          <p>
+            Experienced in Unified Endpoint Management, handling device enrollment, policy configuration, patching, security compliance, monitoring endpoints, troubleshooting issues, and ensuring secure, streamlined management of laptops, mobiles, and enterprise devices across the organization.
+          </p>
+        </div>
+      </div>
+    </li>
+
+  </ul>
+</section>
+
+<!-- =======================
+       Modal Container
+======================= -->
+<div class="modal-container" data-modal-container id="modal1">
+  <div class="overlay" data-overlay></div>
+  <section class="testimonials-modal">
+    <button class="modal-close-btn" data-modal-close-btn>
+      <ion-icon name="close-outline"></ion-icon>
+    </button>
+    <div class="modal-img-wrapper">
+      <figure class="modal-avatar-box">
+        <img src="./assets/images/avatar-1.png" alt="Cybersecurity – VAPT" width="80">
+      </figure>
+      <img src="./assets/images/icon-quote.svg" alt="quote icon">
+    </div>
+    <div class="modal-content">
+      <h4 class="h3 modal-title">Cybersecurity – VAPT (Primary Focus)</h4>
+      <time datetime="2021-06-14">14 June, 2021</time>
+      <div data-modal-text>
+        <p>
+          Focused on Vulnerability Assessment and Penetration Testing, identifying security gaps, performing ethical hacking, analyzing risks, and recommending safeguards to strengthen systems against cyber threats and ensure robust, secure digital environments.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+      </article> 
+
+
+ 
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="profile">
+
+        <header>
+          <h2 class="h2 article-title">Profile</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Jeppiaar Institute Of Technology</h4>
+
+              <span>2021 — 2025</span>
+
+              <p class="timeline-text">
+                Bachelor Of Engineering -
+                Computer Science Engineering
+                <P class="timeline-text">CGPA : 7.5</P>
+              </p>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Maharishi International Residential School</h4>
+
+              <span>2020 - 2021</span>
+
+              <p class="timeline-text">
+                Class 12th - Computer Science
+                <P class="timeline-text">Percentage : 75%</P>
+              </p>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Maharishi International Residential School</h4>
+
+              <span>2018 - 2019</span>
+
+              <p class="timeline-text">
+                Class 10th - General
+                <P class="timeline-text">Percentage : 63%</P>
+              </p>
+            
+           </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VAPT, SOC and Endpoint Management - Mithra Consulting</h4>
+
+              <span>July 2025 - October 2025</span>
+
+              <p class="timeline-text">
+                Conducted penetration tests and vulnerability assessments on client systems and web applications,
+monitored security incidents and alerts in the Security Operations Center (SOC), and managed endpoints across client networks. Identified and documented security weaknesses, collaborated with teams
+to implement mitigations, and ensured systems remained compliant and protected.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Security Analyst - Altruisty</h4>
+
+              <span>Oct 2024 - April 2025</span>
+
+              <p class="timeline-text">
+                Conducted vulnerability assessments and penetration tests on web applications and systems, collaborating with developers to improve security and reduce risks. Prepared detailed reports with PoCs,
+risk analysis, and remediation recommendations. Built and maintained secure, scalable Django web
+applications.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Java Developer - Intellect Design Arena</h4>
+
+              <span>July 2023 - August 2023</span>
+
+              <p class="timeline-text">
+               Developed and maintained Spring-based applications, implementing core business logic and dependency
+injection. Ensured clean, modular code and collaborated with team members to deliver scalable, highperformance projects.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div> 
+
+            <h3 class="h3">My Skills</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VAPT Skills</h4>
+
+              <p class="timeline-text">
+                   Web App Pentesting,
+                  API Pentesting,
+                 Network VAPT,
+                  Recon & Enumeration,
+                  Manual + Automated Exploitation, 
+                  Vulnerability Reporting
+                
+              </p>
+            
+           </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">VAPT Tools</h4>
+
+              <p class="timeline-text">
+                   
+               Burp Suite, OWASP ZAP, Nmap, Nikto, SQLMap, Dirsearch, Metasploit, Gobuster, Wfuzz, Hydra, WhatWeb, Subfinder
+
+                
+              </p>
+            
+           </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">SOC Tool</h4>
+
+              <p class="timeline-text">
+                
+                   Alert Logic (Log Monitoring, Alert Investigation, Incident Handling)
+                
+              </p>
+            
+           </li>
+           
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Endpoint Management (UEM)</h4>
+
+              <p class="timeline-text">
+                Scalefusion (primary),
+                Intune,
+                Hexnode,
+                
+              </p>
+            
+           </li>
+           
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Other Skills</h4>
+
+              <p class="timeline-text">
+                    
+                   Web Development (HTML, CSS, JavaScript, React, Django), UI/UX Design, Networking Basics, Communication
+                
+              </p>
+            
+           </li>
+
+        </ol>
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO-->
+      
+
+      <article class="portfolio" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn></button>
+            </li>
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value></div>
+          <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item></button>
+              </li>
+
+             
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box"> </div>
+
+                  <img src="./assets/images/project-1.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h5 class="project-title">Fellet-Website Vulnerability Scanner</h5>
+
+                <p class="project-category">
+                  Developed a Python-based vulnerability scanner capable of identifying and analyzing security weaknesses
+in web applications, enhancing the efficiency of vulnerability assessment processes
+                </p>
+                 <div class="btn-container"><button
+                        class="btn btn-color-2 project-btn"
+                        onclick="location.href='https://github.com/sharan-bot/Fellet'">GitHub
+                      </button></div>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box"></div>
+
+                  <img src="./assets/images/project-2.jpeg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h5 class="project-title">NoSQL Injection Detector </h5>
+
+                <p class="project-category">Built a security tool to detect and prevent No SQL injection attacks in databases, improving application
+security by addressing a common but often overlooked attack vector.</p>
+                 <div class="btn-container">
+                <button
+                        class="btn btn-color-2 project-btn"         
+                        onclick="location.href='https://github.com/sharan-bot/nosql-injection.git'">GitHub
+                      </button></div>
+
+              </a>
+            </li>
+
+    
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="contact-form">
+
+            <h2 class="h2 article-title">Get in Touch</h2>
+               
+              <h4 class="h4 timeline-item-title">Cybersecurity enthusiast specializing in VAPT, reconnaissance, web app security testing, and SOC basics.
+Creator of Fellet, a custom website vulnerability scanner.
+I’ve trained juniors, participated in SIH, and worked extensively with Kali Linux, networking, and security tools.
+</h4>
+                 <h4 class="yellow-span">Download my resume to explore my cybersecurity experience.</h4>
+
+                 <div class="btn-container-3">
+                        <button
+                         class="btn-5 btn-color-4"
+                         onclick="window.open('./assets/images/Sharan%20Resume.pdf')"
+                         >
+                           Download resume
+                    </button>
+                    </div>   
+                <ul class="social-list-1">
+
+  <li class="social-item linkedin-item">
+    <a onclick="location.href='https://www.linkedin.com/in/sharank2011'" class="social-link linkedin-link">
+      <ion-icon name="logo-linkedin"></ion-icon>
+      <span>linkedin.com/in/sharank2011</span>
+    </a>
+  </li>
+
+  <li class="social-item email-item">
+    <a onclick="location.herf='mailto:surekhasharan@gmail.com'" class="social-link email-link">
+      <img src="./assets/images/email.png" alt="Email" width="24" height="24">
+      <span>surekhasharan@gmail.com</span>
+    </a>
+  </li>
+
+  <li class="social-item github-item">
+    <a onclick="location.href='https://github.com/sharan-bot'" class="social-link github-link">
+      <ion-icon name="logo-github"></ion-icon>
+      <span>github.com/sharan-bot</span>
+    </a>
+  </li>
+
+  <li class="social-item phone-item">
+    <a class="social-link phone-link">
+      <img src="./assets/images/phone.png" alt="Phone" width="28" height="28">
+      <span>+91 8838125379</span>
+    </a>
+  </li>
+
+</ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
